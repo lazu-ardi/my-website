@@ -46,14 +46,14 @@ const IndexCallout = () => {
           </div>
 
           <div className="flex space-x-4 pt-2 mx-auto justify-center">
-            <button className="rounded-full bg-emerald-600 hover:bg-emerald-800 dark:bg-blue-500 py-2 px-4 font-bold text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:dark:bg-indigo-500">
+            <button className="rounded-full bg-emerald-600 hover:bg-emerald-800 dark:bg-blue-600 py-2 px-4 font-bold text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:dark:bg-blue-700">
               <div className="flex justify-between space-x-2">
                 <MdAlternateEmail className="self-center" />
                 <a href="mailto:lazuardi_imani@pm.me">Email</a>
               </div>
             </button>
 
-            <button className="rounded-full bg-emerald-600 hover:bg-emerald-800 dark:bg-blue-500 py-2 px-4 font-bold text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:dark:bg-indigo-500">
+            <button className="rounded-full bg-emerald-600 hover:bg-emerald-800 dark:bg-blue-600 py-2 px-4 font-bold text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:dark:bg-blue-700">
               <div className="flex justify-between  space-x-2">
                 <FaTwitter className="self-center" />
                 <a href="https://twitter.com/lazu_rd">Twitter</a>
