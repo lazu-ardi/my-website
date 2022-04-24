@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="lg:mt-18 mt-12 py-6 sm:py-12 sm:pb-10">
       <div className="mx-auto max-w-4xl px-4 text-gray-800 dark:text-white">
-        <div className="dark:border-white-300 mb-2 border-t-2 border-emerald-400 pb-2"></div>
+        <div className="dark:border-white-300 mb-2 border-t-2 border-emerald-400 dark:border-slate-50 pb-2"></div>
         <div className="flex flex-col items-center justify-between lg:flex-row">
           <p className="pb-2 text-sm sm:text-center lg:text-left">
             MIT License © 2022 Lazuardi Imani. Version 3.
