@@ -8,25 +8,25 @@ const Navbar = () => {
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link href="/">
           <a className="flex items-center">
-            <span className="text-slate-900 self-center text-2xl font-semibold whitespace-nowrap dark:text-slate-50">
+            <span className="text-slate-900 self-center text-2xl font-semibold whitespace-nowrap hover:text-emerald-400 hover:dark:text-cyan-400 dark:text-slate-50">
               Lazuardi
             </span>
           </a>
         </Link>
         <div className="flex flex-row gap-4">
-          <Link href="/">
-            <a className="text-slate-900 self-center text-lg font-semibold whitespace-nowrap dark:text-slate-50">
-              Home
-            </a>
-          </Link>
-          <Link href="/About">
-            <a className="text-slate-900 self-center text-lg font-semibold whitespace-nowrap dark:text-slate-50">
+          {/* <Link href="/">
+            <a className="text-slate-900 self-center text-lg font-semibold whitespace-nowrap hover:text-emerald-400 hover:dark:text-cyan-400 dark:text-slate-50">
               About
             </a>
           </Link>
           <Link href="/">
-            <a className="text-slate-900 self-center text-lg font-semibold whitespace-nowrap dark:text-slate-50">
+            <a className="text-slate-900 self-center text-lg font-semibold whitespace-nowrap hover:text-emerald-400 hover:dark:text-cyan-400 dark:text-slate-50">
               Project
+            </a>
+          </Link> */}
+          <Link href="https://drive.google.com/file/d/164ypBN4i-wGsVzM2Jpf5aTJJw4JQ2sWg/view?usp=sharing">
+            <a className="text-slate-900 self-center text-lg font-semibold whitespace-nowrap hover:text-emerald-400 hover:dark:text-cyan-400 dark:text-slate-50">
+              Resume
             </a>
           </Link>
           <ThemeSwitch />
