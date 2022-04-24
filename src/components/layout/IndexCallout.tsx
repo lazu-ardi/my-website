@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import { FaTwitter } from 'react-icons/fa';
-import { MdAlternateEmail } from 'react-icons/md';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import { SiPolywork } from 'react-icons/si';
 import Profile from '/public/assets/profile.jpg';
 
 const IndexCallout = () => {
@@ -16,7 +17,7 @@ const IndexCallout = () => {
             Lazuardi.
           </h1>
           <div className="mt-6 text-slate-900 dark:text-slate-50">
-            <p className="mb-4 text-lg">
+            <p className="mb-4 text-lg lg:text-left">
               I am a Frontend developer based in Surabaya that specializes in
               building websites <br /> and app with{' '}
               <a
@@ -41,24 +42,60 @@ const IndexCallout = () => {
               </a>{' '}
               framework.
               <br />
-              You can contact me via:
             </p>
           </div>
 
-          <div className="flex space-x-4 pt-2 mx-auto justify-center">
-            <button className="rounded-full bg-emerald-600 hover:bg-emerald-800 dark:bg-cyan-600 py-2 px-4 font-bold text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:dark:bg-cyan-800">
-              <div className="flex justify-between space-x-2">
-                <MdAlternateEmail className="self-center" />
-                <a href="mailto:lazuardi_imani@pm.me">Email</a>
-              </div>
-            </button>
-
-            <button className="rounded-full bg-emerald-600 hover:bg-emerald-800 dark:bg-cyan-600 py-2 px-4 font-bold text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:dark:bg-cyan-800">
-              <div className="flex justify-between  space-x-2">
-                <FaTwitter className="self-center" />
-                <a href="https://twitter.com/lazu_rd">Twitter</a>
-              </div>
-            </button>
+          <div className="flex space-x-8 pt-2 mx-auto justify-center lg:justify-start">
+            <a
+              href="https://twitter.com/lazu_rd"
+              className={
+                'hover:text-emerald-600 hover:dark:text-cyan-400 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTwitter className="text-3xl" />
+            </a>
+            <a
+              href="https://github.com/lazu-ardi"
+              className={
+                'hover:text-emerald-600 hover:dark:text-cyan-400 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub className="text-3xl" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lazu-ardi/"
+              className={
+                'hover:text-emerald-600 hover:dark:text-cyan-400 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin className="text-3xl" />
+            </a>
+            <a
+              href="https://www.polywork.com/lazu_ardi"
+              className={
+                'hover:text-emerald-600 hover:dark:text-cyan-400 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              <SiPolywork className="text-3xl" />
+            </a>
+            <a
+              href="mailto:lazuardi_imani@pm.me"
+              className={
+                'hover:text-emerald-600 hover:dark:text-cyan-400 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              <MdEmail className="text-3xl" />
+            </a>
           </div>
         </div>
 
