@@ -12,6 +12,10 @@ const IndexProjects = () => {
         <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-50 sm:text-5xl text-center">
           Things I built
         </h1>
+        <p className="text-lg text-center pt-4 ">
+          Here are some of my recent project that i have worked on, feel free to
+          check them out.
+        </p>
       </div>
 
       <div className="container mx-auto flex gap-6 px-4 sm:px-28 lg:justify-center sm:flex-col lg:flex-row">
