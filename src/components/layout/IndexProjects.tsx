@@ -20,15 +20,14 @@ const IndexProjects = () => {
 
       <div className="container mx-auto flex gap-6 px-4 flex-col sm:px-28 sm:flex-col sm:items-center lg:justify-center lg:flex-row">
         <div className="max-w-sm rounded-lg border border-gray-400 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <a href="#">
+          <a href="https://course-landingpage.vercel.app/">
             <Image className="rounded-t-lg" src={Course} alt="Landing Page" />
           </a>
           <div className="p-5">
-            <a href="#">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Course Landing Page
-              </h5>
-            </a>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Course Landing Page
+            </h5>
+
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
               Dynamic landing page using Next.js, Tailwind CSS is built into
               workflow with postcss, and DatoCMS as a Headless CMS to host all
@@ -63,15 +62,14 @@ const IndexProjects = () => {
         {/*  */}
 
         <div className="max-w-sm rounded-lg border border-gray-400 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <a href="#">
+          <a href="https://image-galery-pi.vercel.app/">
             <Image className="rounded-t-lg" src={Gallery} alt="Image Gallery" />
           </a>
           <div className="p-5">
-            <a href="#">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Image Gallery
-              </h5>
-            </a>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Image Gallery
+            </h5>
+
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
               simple images gallery with images source from the Pixabay API.
               Using React and Tailwind CSS built into workflow with postcss.
@@ -105,15 +103,14 @@ const IndexProjects = () => {
         {/*  */}
 
         <div className="max-w-sm rounded-lg border border-gray-400 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <a href="#">
+          <a href="https://pokedex-seven-lake.vercel.app/">
             <Image className="rounded-t-lg" src={Pokedex} alt="Pokedex" />
           </a>
           <div className="p-5">
-            <a href="#">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Pokedex
-              </h5>
-            </a>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Pokedex
+            </h5>
+
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
               A simple pokedex built using Next.js and Tailwind CSS integrated
               in the project. Fetching pokemon data using PokeAPI
