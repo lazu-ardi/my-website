@@ -18,7 +18,7 @@ const IndexProjects = () => {
         </p>
       </div>
 
-      <div className="container mx-auto flex gap-6 px-4 sm:px-28 lg:justify-center sm:flex-col lg:flex-row">
+      <div className="container mx-auto flex gap-6 px-4 flex-col sm:px-28 sm:flex-col sm:items-center lg:justify-center lg:flex-row">
         <div className="max-w-sm rounded-lg border border-gray-400 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
           <a href="#">
             <Image className="rounded-t-lg" src={Course} alt="Landing Page" />
