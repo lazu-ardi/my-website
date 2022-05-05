@@ -4,7 +4,7 @@ import ThemeSwitch from '../layout/ThemeSwitch';
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-20 lg:static">
+    <div className="sticky top-0 z-20">
       <nav className="bg-slate-50 px-2 sm:px-4 py-2.5 dark:bg-zinc-800">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link href="/">
