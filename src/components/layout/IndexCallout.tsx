@@ -7,19 +7,19 @@ import Profile from '/public/assets/profile.jpg';
 
 const IndexCallout = () => {
   return (
-    <div className="container mx-auto px-4">
-      <div className="item-center flex flex-col-reverse text-center lg:-mx-4 lg:flex lg:flex-row lg:space-x-5 lg:text-left justify-center">
-        <div className="lg:mt-12 lg:px-4 ">
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-50 lg:text-5xl">
+    <div className="container mx-auto px-4 py-4">
+      <div className="flex flex-col-reverse lg:-mx-4 lg:flex lg:flex-row lg:space-x-5 lg:text-left">
+        <div className="lg:mt-6 px-4">
+          <h2 className="text-2xl font-bold text-center text-slate-900 dark:text-slate-50 lg:text-5xl lg:text-left">
             Hey, I am
-          </h1>
-          <h1 className="text-6xl font-bold text-emerald-500 dark:text-cyan-400 lg:text-8xl">
+          </h2>
+          <h1 className="text-6xl font-bold text-center text-emerald-500 dark:text-cyan-400 lg:text-8xl lg:text-left">
             Lazuardi.
           </h1>
           <div className="mt-6 text-slate-900 dark:text-slate-50">
-            <p className="mb-4 text-lg lg:text-left">
-              I am a Frontend developer based in Surabaya that specializes in
-              building websites <br /> and app with{' '}
+            <p className="mb-4 text-lg text-left">
+              I am a Frontend developer based in Surabaya,Indonesia that
+              specializes in building websites and app with{' '}
               <a
                 href="https://jamstack.org/"
                 className="underline decoration-emerald-400 hover:text-emerald-600 hover:dark:text-cyan-400 dark:decoration-cyan-400 "
@@ -99,7 +99,7 @@ const IndexCallout = () => {
           </div>
         </div>
 
-        <div className="mb-10 flex-shrink-0 lg:mt-12 lg:px-4">
+        <div className="mb-10 flex-shrink-0 lg:mt-12 lg:px-4 text-center">
           <Image
             src={Profile}
             alt="Profile"
