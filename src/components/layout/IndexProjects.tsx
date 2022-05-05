@@ -9,7 +9,7 @@ const IndexProjects = () => {
   return (
     <div className="container mx-auto px-4 py-4 mt-48">
       <div className="px-4 py-4 mb-4">
-        <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-50 sm:text-5xl text-center">
+        <h1 className="text-2xl font-bold text-emerald-600 dark:text-cyan-400 sm:text-5xl text-center">
           Things I built
         </h1>
         <p className="text-lg text-center pt-4 ">
